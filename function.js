@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const labText = document.getElementById('labText');
 
   const iconSequence = [
-    { icon: 'box', text: 'Production' },
+    { icon: 'box', text: 'Camo Lab' },
     { icon: 'origami', text: 'Adaptability' },
     { icon: 'wand-2', text: 'Creativity' },
     { icon: 'brain', text: 'Innovation' },
@@ -77,7 +77,7 @@ const projects = [
     {
         id: 3,
         title: "Adjustable Bookends Set",
-        description: " Modular 3D-printed bookends with adjustable width for different shelf sizes. Created for home and office use, with matte black finish, in colaboration with 'La Libreria Internacional'.",
+        description: "Modular 3D-printed bookends with adjustable width for different shelf sizes. Created for home and office use, with matte black finish, in colaboration with 'La Libreria Internacional'.",
         category: "industrial",
         image: "https://fbi.cults3d.com/uploads/collection/shot_en/185/Hanging-Cat-Book-Nook-KrakDrag-5.jpg",
         materials: ["PETG"],
@@ -757,5 +757,4 @@ function scrollToSection(href) {
 
 // Global function for buttons
 window.scrollToSection = scrollToSection;
-window.goToReview = goToReview;
- 
+window.goToReview = goToReview; 
