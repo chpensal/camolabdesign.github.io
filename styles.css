@@ -490,7 +490,6 @@ body {
 }
 
 .hero-main-icon {
-    position: center;
     width: 12rem;
     height: 12rem;
     background: linear-gradient(135deg, var(--forest-green), var(--dark-emerald));
@@ -504,6 +503,8 @@ body {
     animation: float 3s ease-in-out infinite;
   padding: 1rem;
   gap: 0.5rem;
+  position: relative;
+  text-align: center;
 }
 
 .pulse-icon {
@@ -520,7 +521,6 @@ body {
   50% { transform: scale(1.1); opacity: 0.85; }
   100% { transform: scale(1); opacity: 1; }
 }
-
 .hero-dynamic-text {
   margin-top: 0.75rem;
   font-size: 1.125rem;
@@ -571,7 +571,7 @@ body {
 }
 
 .hero-floating-2 {
-    position: relative;
+    postion: relative;
     bottom: -8.5rem;
     left: -8rem;
     background: hsla(120, 30%, 70%, 0.3);
